@@ -1,0 +1,30 @@
+/* Import */
+
+@import url('https://fonts.googleapis.com/css?family=Baloo+Chettan+2&display=swap');
+
+/* General */
+
+* {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Baloo Chettan 2', cursive;
+    color: rgba(3, 49, 53, 0.938);
+}
+
+/* Body */
+
+body {
+    background: url(https://i.pinimg.com/originals/fc/12/af/fc12af4fdda0c0ec5cf23ae293d11a7d.png) no-repeat #292929;
+    background-size: 100%;
+    margin: 0px;
+    overflow: hidden;
+  }
+
+button {
+    background: rgba(3, 49, 53, 0.938);
+    border: none;
+    width: 200px;
+    height: 50px;
+    color: rgb(149, 196, 177);
+}
