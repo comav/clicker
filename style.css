@@ -27,4 +27,9 @@ button {
     width: 200px;
     height: 50px;
     color: rgb(149, 196, 177);
+    animation: ease-in 0.2s all;
+}
+
+button:hover {
+    opacity: 0.85;
 }
