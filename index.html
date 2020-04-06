@@ -4,21 +4,22 @@
 <head>
     <title>Clicker</title>
 
-    <link href="style.css" rel="stylesheet">
+    <!-- <link href="style/style.css" rel="stylesheet" media="screen"> -->
+    <link rel="stylesheet" href="style/mobile.css">
 
     <script src="clickerCounter.js"></script> <!--These scripts makes clicker-->
     <script>
-        var click = 59; //changed for debug purposes
+        var click = 0; //changed for debug purposes
     </script>
 
     <script src="backgroundChanger.js"></script>
 </head>
 
 <body>
-
+    <div class="container">
     <h3 id="text">You clicked <div id="output">0</div> times</h3>
     <button onclick="plusOneClick()" id="button">click!</button>
-
+</div>
 </body>
 
 </html>

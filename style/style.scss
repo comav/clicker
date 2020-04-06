@@ -15,8 +15,7 @@
 /* Body */
 
 body {
-    background: url(background/bg1.png) no-repeat #292929;
-    background-size: 100%;
+    background-size: 400%;
     margin: 0px;
     overflow: hidden;
   }
@@ -28,8 +27,7 @@ button {
     height: 50px;
     color: rgb(149, 196, 177);
     animation: ease-in 0.2s all;
-}
-
-button:hover {
-    opacity: 0.85;
+    &:hover{
+        opacity: 0.85;
+    }
 }
