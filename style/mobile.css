@@ -40,4 +40,8 @@ body {
   margin-top: 200px;
   font-size: 2em;
 }
+
+.githubIcon {
+  display: none;
+}
 /*# sourceMappingURL=mobile.css.map */

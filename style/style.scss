@@ -32,3 +32,14 @@ button {
         opacity: 0.85;
     }
 }
+
+.githubIcon {
+    opacity: 0.3;
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    animation: 0.3s ease-out;
+    &:hover {
+        opacity: 0.6;
+    }
+}
