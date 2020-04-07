@@ -15,7 +15,8 @@
 
 /* Body */
 body {
-  background-size: 400%;
+  background: url(/background/bg1.png);
+  background-size: 100%;
   margin: 0px;
   overflow: hidden;
 }
