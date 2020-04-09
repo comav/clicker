@@ -5,7 +5,6 @@ const output = document.getElementById('output');
 
 function secondBackground() {
     document.body.style.background = "url(background/bg2.jpg) no-repeat";
-    document.body.style.backgroundSize = "100%";
     button.style.backgroundColor = "#3b4d42";
     button.style.color = "#90a886"
     text.style.color = "#90a886";
@@ -20,7 +19,6 @@ function secondBackground() {
 
 function thirdBackground() {
     document.body.style.background = "url(background/bg3.jpg) no-repeat";
-    document.body.style.backgroundSize = "100%";
     button.style.backgroundColor = "#17221e";
     button.style.color = "#b3bdbe"
     text.style.color = "#b3bdbe";
@@ -35,7 +33,6 @@ function thirdBackground() {
 
 function fourthBackground() {
     document.body.style.background = "url(background/bg4.jpg) no-repeat";
-    document.body.style.backgroundSize = "100%";
     button.style.backgroundColor = "#545518";
     button.style.color = "#ffffff"
     text.style.color = "#ffffff";
@@ -50,7 +47,6 @@ function fourthBackground() {
 
 function fifthBackground() {
     document.body.style.background = "url(background/bg5.jpg) no-repeat";
-    document.body.style.backgroundSize = "100%";
     button.style.backgroundColor = "#d54e13";
     button.style.color = "#f9d825"
     text.style.color = "#f9d825";
