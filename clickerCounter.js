@@ -19,8 +19,4 @@ function plusOneClick() {
     if (click == 80) {
         fifthBackground();
     }
-
-    if (click == 100) {
-        overNineThousand();
-    }
 }
