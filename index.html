@@ -4,21 +4,39 @@
 <head>
     <title>Clicker</title>
 
+<<<<<<< HEAD
     <link href="style.css" rel="stylesheet">
+    <link href="favicons/icon1.ico" rel="icon" id="favicon">
 
-    <script src="clickerCounter.js"></script> <!--These scripts makes clicker-->
+        <!--These scripts makes clicker-->
+    <script src="clickerCounter.js"></script>
     <script>
-        var click = 59; //changed for debug purposes
+        var click = 0;
+=======
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+
+    <link href="style/style.css" rel="stylesheet" media="screen and (min-width: 851px)">
+    <link rel="stylesheet" href="style/mobile.css" media="screen and (max-width: 850px)">
+
+    <!--These scripts makes clicker-->
+    <script src="clickerCounter.js"></script>
+    <script>
+        var click = 0;
+        var screenWidth = screen.width;
+>>>>>>> master
     </script>
 
     <script src="backgroundChanger.js"></script>
 </head>
 
 <body>
-
-    <h3 id="text">You clicked <div id="output">0</div> times</h3>
-    <button onclick="plusOneClick()" id="button">click!</button>
-
+    <div class="container">
+        <h3 id="text">You clicked <div id="output">0</div> times</h3>
+        <button onclick="plusOneClick()" id="button">click!</button>
+    </div>
+    <a href="https://www.github.com/comav/clicker" class="githubIcon">
+        <img src="https://www.stickpng.com/assets/images/5847f98fcef1014c0b5e48c0.png" width="100px">
+    </a>
 </body>
 
 </html>

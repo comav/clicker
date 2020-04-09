@@ -1,0 +1,43 @@
+/* Import */
+
+@import url('https://fonts.googleapis.com/css?family=Baloo+Chettan+2&display=swap');
+
+/* General */
+
+* {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-self: center;
+    font-family: 'Baloo Chettan 2', cursive;
+    color: rgba(3, 49, 53, 0.938);
+}
+
+/* Body */
+
+body {
+    background: url(/background/bg1.png) no-repeat;
+    background-size: 400%;
+}
+
+.container {
+    background-size: cover;
+    margin: 0px;
+    overflow: hidden;
+    // margin-top: 50%;
+    h3 {
+        font-size: 3em;
+    }
+    button {
+        background: rgba(3, 49, 53, 0.938);
+        border: none;
+        color: rgb(149, 196, 177);
+        width: 40%;
+        margin-top: 200px;
+        font-size: 2em;
+    }
+  }
+
+  .githubIcon {
+      display: none;
+  }
