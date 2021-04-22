@@ -1,6 +1,6 @@
 function start () {
     gapi.client.init({
-        'apiKey': 'AIzaSyAXyYYB1l81XC9zM30ds0ILjDSl5N2UqKY',
+        'apiKey': '',
         'discoveryDocs': ['https://people.googleapis.com/$discovery/rest'],
         'scope': 'profile'
     }).then(() => {
